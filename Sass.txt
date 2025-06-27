@@ -1,0 +1,53 @@
+	1. CSS Preprocessors
+		a. Sass
+			i. CSS-like syntax to build complex CSS stylesheets
+			ii. Compiles a .scss sass file into a .css file
+		b. Variables begin with $
+			i. $font-style:
+	2. Nesting
+		a. Sass can create a child selector that only applies to a parent selector
+		b. Results in a CSS that creates a child within a parent
+		c. See 6.7.1
+		d. & is used to reference the parent selctor from a child's properties
+			i. See 6.7.2
+	3. Property Nesting
+		a. CSS properties that begin with the same prefix can be condensed using Sass
+		b. See 6.7.3
+	4. Variables and arithmetic using SassScript
+		a. Begins with a $
+		b. Datatypes:
+			i. Number
+			ii. String
+				1) "red", 'red' red
+			iii. Color (name or rgb value)
+			iv. Boolean
+			v. Null
+			vi. List of values
+				1) Separated by commas
+			vii. Map
+				1) Key/value pairs
+		c. Can perform expressions using operators
+			i. $width: 300;
+				1) Width: 300 - 50px;
+				2) Width: 300 * 2 +10
+	5. Functions
+		a. Lighten(color, amount)
+			i. Amount between 0 and 100%
+		b. Invert(color)
+			i. Negative / inverse of color
+		c. To-upper-case(string)
+			i. All uppercase
+		d. Round(number)
+			i. Rounds to nearest whole #
+		e. Random(limit)
+			i. Returns random integer between 1 and limit number
+	6. Mixins
+		a. Set of reusable styles
+		b. Defined by @mixin directive
+		c. Directives
+			i. Extension to CSS at-rules
+				1) Statements beginning with @
+			ii. @include
+		d. See 6.7.7
+		
+			

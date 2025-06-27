@@ -1,0 +1,45 @@
+	1. Syntax Errors
+		a. Spelling and punctuation
+			i. Cause program not to run
+	2. Logic Errors
+		a. Syntax is correct
+		b. Code is not what was intended
+		c. Often isnt an error message to direct you to the problem
+	3. Html doesn’t suffer from syntax errors
+		a. Renders pages anyway
+	4. Run HTML through a validator to determine if code is ok 
+		a. No missing closing tags, etc..
+		b. Markup Validation Service
+		
+Importance of Debugging in the Browser 
+
+	1. 3 Steps
+		a. Find it
+		b. Identify it
+		c. Fix it
+	2. Exploring possibilites of DevTools
+		a. F12 on Chrome to open
+	3. Menu Item / Panel Breakdown
+		a. Element
+			i. Dom elements and styles
+			ii. Opens up panes
+		b. Console
+		c. Network
+		d. Performance
+	4. Can use settings to change themes to dark
+		a. Top right ellipsis
+	5. Change where the dev tools will appear
+		a. Dock side
+			i. Bottom
+			ii. Left
+			iii. Top
+			iv. Right
+			v. Undock
+	6. Close with F12 or X button
+	7. Command Menu
+		a. CTRL + shift + p on windows
+		b. Find new commands
+		c. >dark
+			i. Switch to dark theme
+		d. Hit enter to run a command
+		

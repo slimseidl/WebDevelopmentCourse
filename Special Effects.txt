@@ -1,0 +1,113 @@
+	1. Text-Shadow
+		a. Accepts four values:
+			i. Offset-x
+				1) Horizontal offset
+			ii. Offset-y
+				1) Vertical Offset
+			iii. Blur-radius optional
+				1) Optional shadow blur with a default of 0
+			iv. Color - optional
+				1) Shadow color
+			v. Ex
+				1) <p style="text-shadow: 5px 5px 2px red">
+		b. Positive offset
+			i. To the right and down
+		c. Negative offset
+			i. To the left and above
+		d. Offset 0px
+			i. Text appears to glow
+		e. Blurs
+			i. The larger the blur radius, the more blurry it is
+		f. Separate multiple shadows with a comma
+			i. 0 0 3px red, 0 0 5px purple;
+	2. Box-Shadow
+		a. Adds a shadow to the box around the element
+			i. Inset
+				1) Optional value that draws the shadow inside the box
+			ii. Offset-x
+				1) Horizontal offset
+			iii. Offset-y
+				1) Vertical offset
+			iv. Blur-radius - optional
+			v. Spread-radius 
+				1) Positive value causes shadow to grow
+				2) Negative to shrink
+			vi. Color - optional
+	3. Round Corners
+		a. Border-radius values:
+			i. Single: all four corners equal round
+			ii. Two: first is top & bottom right, second is top right & bottom left
+			iii. Three: 
+				1) Top left
+				2) Top right
+				3) Bottom left
+			iv. Four:
+				1) Top left
+				2) Top right
+				3) Bottom right
+				4) Bottom left
+		b. Can assign each corner individually otherwise
+			i. Border-top-left-radius
+			ii. Etc
+		c. Border-radius: 40px 10px 10px 40px;
+	4. Border-Image
+		a. Uses sections of an image for element border
+		b. Takes place of any other border using border-style
+		c. Properties:
+			i. Border-image-source
+				1) URL
+			ii. Border-image-slice
+				1) Image section size
+			iii. Border-image-repeat
+				1) Repeat to repeat the image
+				2) Round to repeat image but resize if needed to fit
+				3) Stretch to stretch and image
+		d. Must have border-width for border to appear
+	5. Linear Gradients
+		a. Transition from one color two another
+		b. Follows a straight line
+		c. Linear-gradient(color1, color2, etc..)
+		d. Default direction is top to bottom
+			i. Can change with "to direction" argument
+				1) To left
+				2) To right
+				3) To top 
+				4) To bottom
+			ii. Linear-gradient(to bottom right, red, blue, black)
+		e. Angle
+			i. 0deg
+				1) top
+			ii. 90deg
+				1) right
+			iii. 180deg
+				1) bottom
+			iv. 270deg
+				1) Left
+		f. Repeating-linear-gradient
+			i. Repeats where color values are supplied an option percent
+				1) After last color
+					a) Repeats to fill width
+						i) (to bottom right, red, blue, black 25%)
+	6. Radial Gradients
+		a. Radial-gradient(color1, etc)
+		b. Ellipse shaped gradient
+			i. Color 1 in the center
+		c. % gives more emphasis to the color
+		d. Use 'circle' to create circle radial 
+			i. (circle, red 20%, orange 50%)
+	7. Positioning Radial Gradients
+		a. Centered by default
+		b. Can position differently
+			i. centerX or centerY
+				1) Distance or percentage
+			ii. Radial-gradient(at 50px 10px, yellow, green)
+				1) Center that is 50px from left edge and 10px from top
+		c. Closest-side
+		d. Farthest-side
+		e. Closest-corner
+		f. Farthest-corner
+	
+		
+			
+	
+		

@@ -1,0 +1,35 @@
+	1. Element, Class and ID selectors
+		a. Element
+			i. Matches elements
+			ii. <p> = p
+		b. Class
+			i. Specified with a period followed by class
+				1) .notice {color: blue;}
+				2) Selects all elements to be blue with a class="notice" attribute
+		c. ID selector
+			i. Specified with a hash followed by ID
+			ii. #byline {color: blue;}
+				1) Id="byline"
+		d. Class Names
+			i. Allows javascript and CSS to modify all elements with the class name
+			ii. <span class="highlight first">
+				1) Has two classes
+					a) Highlight and first
+			iii. Many elements use the same class 
+	2. Descendant Selectors
+		a. Separate selectors with a space
+			i. Designates the style to an element contained within another element
+	3. Pseudo Class Selectors
+		a. Colon followed by pseudo class name
+		b. Matches elemetns based on user behavior
+			i. :disabled
+				1) Element is disabled
+			ii. :hover
+				1) Mouse hovers over element
+			iii. :empty
+				1) No child elements
+			iv. :lang
+				1) Element contains specified language
+			v. :nth-child
+				1) Element is the parent elements nth child
+		

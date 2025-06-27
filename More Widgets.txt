@@ -1,0 +1,64 @@
+	1. Input pickers
+		a. Allows a user to pick a choice from a popup
+	2. Date picker
+		a. Like a date on a microsoft form that is selectd
+		b. Choose a date from a popup
+		c. <input type="date">
+		d. Attributes
+			i. Min
+				1) Earliest date
+			ii. Max
+				1) Latest date
+	3. Color picker
+		a. <input type="color">
+	4. Number input
+		a. Ensures input is a number
+		b. <input type="number">
+		c. Attributes
+			i. Min
+			ii. Max
+	5. Range 
+		a. Slider for a range
+		b. <input type="range">
+		c. Attributes
+			i. Min
+			ii. Max
+			iii. Value
+	6. Combo Box
+		a. Combination of text box and drop down
+		b. <input> and <datalist> elements
+		c. <input list="">
+			i. <datalist id="">
+				1) <option value="">
+	7. Specialized text input
+		a. URL
+			i. For typing a URL
+		b. Tel
+			i. For typing a phone number
+		c. Email
+			i. Typing an email address
+		d. Search
+			i. Typing search terms
+		e. Keyboards displayed on mobile applications as  an example
+	8. Form Validation
+		a. Restrictions / providing correct input
+		b. Attributes
+			i. Maxlength
+				1) Max number of chars
+			ii. Minlength
+			iii. Max
+				1) Max value
+			iv. Min
+			v. Pattern
+				1) Provides a pattern that input must match
+			vi. Required
+				1) Input is required
+			vii. Step
+				1) Sets amount by which input can change
+	9. Fallbacks and Polyfills
+		a. Fallback
+			i. Allows an element to function properly even if web browser does not support the specific element
+		b. Polyfill
+			i. Javascript code that forces certain HTMl elements to work on browsers that don’t support the elements
+		
+		

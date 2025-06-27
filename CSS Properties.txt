@@ -1,0 +1,79 @@
+	1. Color property
+		a. Changes text color
+		b. Color names define 140 different colors
+			i. Red, pink, magenta, forestgreen etc
+		c. Can use RGB to specify a color on a scale
+			i. Rgb(0, 255, 0)
+		d. Hexadecimal color
+			i. #RRGGBB
+			ii. #000000 is black
+			iii. #0000FF is blue
+		e. HSL color values
+			i. Hsl(hue, saturation, lightness)
+			ii. Between 0 an 360
+			iii. Hsl(100, 120%, 50%) is green
+		f. HSLA or RGBA
+			i. Indicates transparency with an alpha value
+			ii. Alpha is between 0 and 1
+				1) 0 is fully transparent
+	2. Background properties
+		a. Background-color
+		b. Background-image
+			i. Specified using url attribute
+				1) ('URL')
+				2) Background-image: url('clouds.png')
+		c. Background
+			i. Shorthand for modifying multiple background properties at once
+	3. Float and Clear Properties
+		a. Control the flow and wrap of the text around images
+		b. Like a magazine or news artilce
+		c. Float
+			i. Specify whether an element will float to the left or right of it's parent container
+			ii. Values
+				1) Left
+				2) Right
+		d. Clear
+			i. Moves elements below previously floated elements
+			ii. Left
+				1) Stop floating on left side
+			iii. Right
+			iv. Both
+	4. Display
+		a. Controls layout of element on a page
+		b. Values
+			i. Inline
+			ii. Block
+			iii. None
+				1) Hides the element
+			iv. Inline-block
+			v. List item
+				1) Displays as a list item
+	5. CSS Variables
+		a. Values used reapeatedly in a sheet
+		b. :root selector
+		c. Defines with two dashes preceding the variable name
+			i. --my-variable: red;
+		d. Accessed with the var() function
+			i. Var(--my-variable);
+		e. Helps define multiple values
+		f. Full example 1.1
+
+<style>
+
+:root {
+	--main-color: red;
+	--main-bg-color: yellow;
+	}
+	
+P {
+	Color: var(--main-color);
+	Background-color var(main-bg-color);
+	}
+	
+</style>
+
+<p> The sun will rise.
+
+
+**Background color is yellow
+**Text color is red

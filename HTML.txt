@@ -1,0 +1,58 @@
+	1. 3 Main characteristics of web pages
+		a. HyperText
+			i. Text that contains connections to other docs
+		b. Markup
+			i. Instructions
+		c. Language
+			i. Set rules defining how to write HTML
+	2. Elements
+		a. Singl HTML structure
+		b. Represented with tags
+			i. Everything from opening to closing tag is the element
+		c. Void elements
+			i. Elements that do not need a closing tag, only opening
+	3. Tag
+		a. Markup identified by < and >
+			i. Opening and closing tags
+		b. Good practice is to use only lowercase for tags
+		c. A tag opened inside another tag must be closed before the outside tag
+			i. Ex
+				1) <strong><em>This is an example.</em><strong>
+	4. HTML living standard
+		a. Defines minimal requirements of at HTML document
+		b. <!DOCTYPE html>
+			i. Instructs browser about what type of document follows
+		c. <html>
+			i. Encloses everything with the exception of the doctype element
+				1) <html lang="en"> = english language
+					a) Lang is the attribute
+		d. <head>
+			i. Document title
+			ii. Not displayed
+		e. <meta>
+			i. Metadata
+				1) Data that describes the documents data
+			ii. <meta charset="UTF-8">
+		f. <title>
+			i. Documents name
+			ii. Displayed in browsers titlebar
+			iii. Used by search engines
+			iv. Used for bookmarking
+		g. <body>
+			i. Encloses all elements to be rendered in the browser
+	5. Attributes
+		a. Additional info about the element and is included only in the opening tag
+		b. Name and value
+		c. Name="value"
+	6. UTF-8
+		a. Common character encoding
+		b. Used by most world languages
+		c. Includes emoji and fictional languages
+	7. HTML validators and deprecated feature
+		a. Deprecated 
+			i. Language that is discouraged because newer or better features exist
+		b. HTML validator
+			i. Checks an HTML for conformity
+			ii. W3c Markup Validator
+	
+	

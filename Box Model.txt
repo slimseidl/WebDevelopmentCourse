@@ -1,0 +1,59 @@
+	1. Box model components
+		a. Describes the size of each element as a series of nextsed boxes
+		b. Content
+			i. Innermost box contains text/images
+		c. Padding
+			i. Contains the content box and adds transparency around it
+			ii. Thickness
+				1) Padding: 5px;
+		d. Border
+			i. Contains padded content
+			ii. Optionally adds colored area
+				1) Border: 2px solid blue;
+					a) Adds blue border two pixels thick
+		e. Margin
+			i. Contains all three boxes
+			ii. Adds transparent area around border
+			iii. Margin: 10px;
+	2. Box Sizing
+		a. Padding and margin can have from 1 to 4 values
+		b. One value
+			i. Specfices thickness around box
+		c. Two vals
+			i. Top and bottom, right and left thicknesses
+			ii. Margin: 10px 20px;
+				1) Top and bottom are 10
+				2) Left and right are 20
+		d. Three vals
+			i. Top, right&left, bottom
+				1) Margin: 10px, 30px, 20px;
+		e. Four vals
+			i. All around
+			ii. In order - top, right, bottom, left
+		f. Can add a -top or -bottom -left -right to any single value to specify
+			i. Border-left: 5px solid;
+				1) Only left side
+	3. Content width and height
+		a. A blocks element contents span the width of the parent element by default
+			i. Can be changed to width and height
+		b. Width: 20px;
+		c. Height: 30px
+		d. Don't use width or height inline
+		e. Total width equals
+			i. Total width + padding*2 + border*2 + margin*2
+		f. Total height includes
+			i. Height + top and bottom margin, padding, and border
+	4. Border Styles
+		a. Border-width
+			i. Border-width: 5px;
+		b. Border-style
+			i. Border-style: dashed;
+			ii. Solid
+			iii. Dotted
+			iv. None
+			v. Double, groove, ridge, inset, outset
+		c. Border-color
+			i. Border-color: green;
+		
+		
+	

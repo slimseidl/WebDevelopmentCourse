@@ -1,0 +1,39 @@
+	1. Use closing tags
+		a. Where applicable, to mark the end of an elements
+		b. Normally with <p> tags, a browser can infer the end of a paragraph, but safer to use the </p> closing tag
+	2. Avoid self-closing tags
+		a. An open tag that closes by adding an unnecessary /
+	3. Use quotation marks for attribute values
+		a. Use double quotes where possible
+			i. If quotes are needed in the value it must be escaped
+				1) A double quote or other special characters can be escaped and used in the ending text by placing a \ (backslash) before the special character
+				2) Ex.
+					a) "Beer is \"good\" for you"
+						i) Displays
+							One. Beer is good for you
+	4. Use booleans concisely
+		a. Only use attribute name for booleans without a value
+			i. Checked
+				1) Instead of 
+					a) Checked="checked"
+	5. Use lowercase for all tags and attributes
+	6. Start block elements on new lines
+		a. <p>, <table>, <ol> tags for example should all start on a new line
+		b. For readability purposes
+	7. Ident nested elements consistently
+		a. Like <li> inside an <ol> or <ul>
+		b. <ol>
+			i. <li>
+	8. Separate content from presentation and functionality
+		a. Don’t use embedded or inline CSS in javascript
+		b. Use separate files for CSS and Javascript rather than using them directly in HTML
+		c. Ex
+			i. Instead of using <style> in HTML, specify the rules in a CSS file such as file.css
+				1) Import using link element
+					a) <link rel="stylesheet" href="file.css">
+	9. Use CSS for layout
+		a. Avoid using tables to manage a layout
+	10. Validate HTML
+		a. Use a validator
+		b. Test in multiple browsers
+	

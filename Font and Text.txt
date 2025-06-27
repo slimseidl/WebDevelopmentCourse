@@ -1,0 +1,71 @@
+	1. Controlling the font properties for text 
+		a. Font-Family
+			i. Name of font
+			ii. Arial
+			iii. Family names containing spaces must be wrapped in double quotes
+			iv. Font-family: Arial, Helvetica, sans-serif;
+		b. Font-size
+			i. 120%
+			ii. Small
+			iii. 12px
+		c. Font-weight
+			i. Normal
+			ii. Bold
+		d. Font-Style
+			i. Italic
+		e. Font-variant
+			i. Small-caps
+		f. Font
+			i. Font: italic 12pt Georgia, serif;
+		g. Can list multiple fonts by priority on what is available in the browser
+			i. Arial, Helvetica, "Times New Roman"
+	2. Font Sizes
+		a. Xx-small through xx-large
+			i. Medium is default
+		b. Relative sizes
+			i. Smaller and larger
+			ii. In relation to parent
+		c. Absolute sizes
+			i. Cm
+			ii. Mm
+			iii. In
+			iv. Px
+			v. Pt
+			vi. Pc
+		d. Relative size
+			i. Em
+				1) Relative to element font size
+			ii. Rem
+				1) Relative to root font size
+				2) Multipler
+					a) 1.5rem;
+			iii. Vw
+			iv. Vh
+			v. %
+				1) Percent of elements font size
+		e. Default is 16px in most browsers
+		f. Ex
+			i. Font-size: x-large;
+			ii. Font-size: 16px;
+	3. Text Properties
+		a. Text-align
+			i. Horizontal alignment
+				1) Left
+				2) Right
+				3) Center
+				4) Justify
+					a) Stretches text to fit width of element
+		b. Text-decoration
+			i. Underlining
+			ii. Line-through
+			iii. Overline
+			iv. None
+		c. Text-Transform
+			i. Uppercase
+			ii. Lowercase
+			iii. Capitalize
+		d. Text-indent
+			i. Indentation amount
+	
+			
+		

@@ -1,0 +1,16 @@
+	1. Styling Forms with CSS 
+		a. Improve user friendliness 6.6.1
+	2. Laying out forms properly
+	3. Styling radio and checkboxes 6.6.5
+		a. Hide default widget
+		b. Display custom widget before each label
+		c. Appearance 
+			i. Based on OS theme
+			ii. None
+				1) Hides widget
+			iii. ::before and content
+				1) Used to insert before label's content
+		d. Cursor: pointer;
+			i. Mouse becomes pointer
+	
+		

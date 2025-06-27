@@ -1,0 +1,43 @@
+	1. Markup language to structure and format any type of data that have multiple purpose such as:
+		a. Data storage
+		b. Data retrieval
+		c. Data mining
+		d. Data processing
+	2. Extensible markup language
+		a. Case sensitive unlike HTML
+		b. A way of attaching information to text
+	3. Can be used to highlight text
+	4. Hierarchy of tags that categorize parts of text
+	5. Nested XML tags
+		a. <Country>
+			i. <state>
+				1) <city>
+	6. More versatile than HTML
+	7. XML tag formatting
+		a. Element tags
+			i. <tag_name, attributes>, <text>,</tag_name>
+			ii. <city>"Las Vegas"</city>
+		b. Self closing tags
+			i. <tag_names, attributes />
+				1) <hierarchy title="United States"/>
+	8. XML does not DO anything
+		a. Just information wrapped in tags
+	9. Does not use predefined tags
+		a. Tags are made up/created by author of document
+	10. Must contain one root element that is the parent to all other elements
+	11. All XML must have a closing tag
+		a. </>
+		b. <br />
+	12. XML tags are case sensitive
+		a. <message>Is correct</message>
+	13. Must be nested properly
+		a. A tag that opens after another and is nested, but be closed before the outer tag
+	14. Attribute values must have quotes
+	15. Special characters must have their entity reference rather than using actual value
+		a. <
+	16. Comments must be:
+		a. <!-- Comment -->
+	17. Does not truncate multiple white spaces like HTML
+	18. Stores a new line as LF
+	
+	

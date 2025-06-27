@@ -1,0 +1,111 @@
+	1. Mobile Web Browsers
+		a. Designed for smartphones
+		b. Uses same languages as web browsers such as HTML, CSS, and Javascript
+	2. Designing
+		a. Smaller screen size
+		b. Touch interface 
+		c. Limited/slower connectivity
+		d. Data plans
+			i. Content downloading
+		e. Different purpose
+		f. Limited memory / speed
+		g. GPS data
+	3. Implementing
+		a. Separate websites
+			i. One for desktop one for mobile
+		b. Dynamic serving
+			i. Same URL 
+				1) Desktop version for desktop
+				2) Mobile for mobile
+			ii. Server Identifies if HTTP request for URL came from mobile or desktop
+				1) Sends back mobile or desktop site
+			iii. Server uses User-Agent code to determine if mobile or desktop
+				1) User-Agent: Chrome (iphone)
+	4. Responsive web design (RWD)
+		a. Altering appearance based on device size
+		b. Characteristics
+			i. Elements laid out on proportion-based grids that use relative units
+				1) Percentages instead of pixels
+			ii. Images sized with relative units to adapt to screen sizes
+			iii. CSS media queries apply different CSS styles
+				1) Based on browser width
+		c. Allows for creating a single page that adapts to mobile, desktop and tablet browsers
+	
+	
+	1. Screen Emulators
+		a. A desktop tool that aids in mobile design without a mobile device
+		b. Simulates how mobile device screens operate
+			i. Built in to Chrome and Edge
+				1) Ctrl + shift + I
+					a) Windows access 
+		c. Mouse pointer appears as a circle to simulate a finger
+		d. Can select drop down at top to switch between device types
+			i. Iphone 14
+			ii. Galaxy S22
+			iii. Etc.
+	2. Pixel Ratio
+		a. DPR
+			i. Device pixel ratio
+			ii. Ratio between device and logical pixels
+			iii. DPR of 2
+				1) 1 logical is 2 device pixels wide, 2 device pixels tall, 4 pixels altogether
+				2) <div style="width:20px">
+					a) Makes div 20px wide
+			iv. Four logical pixels are 4 device pixels on a device with a DPR of 1, 16 with a DPR of 2, 36 with a DPR of 3
+			v. 2DPR is double width and height of 1DPR pixels
+		b. DPR Math
+			i. 1DPR = 1 x 1
+				1) 50 x 50 pixels = 50 x 50 = 2,500 total pixels
+			ii. 2DPR = 2 x 2 = 4 
+				1) 50 x 50 pixels = 50 x 50 x 4 = 10,000 total pixels
+			iii. 3DRP = 3 x 3 = 9 
+				1) 50 x 50 pixels = 50 x 50 x 9 = 22,500 total pixels
+		c. Logical pixel
+			i. Device independent pixel (DIP)
+			ii. CSS px for example
+		d. Screens normally built with DPR
+	3. Emulating Network Conditions
+		a. Pressing ESC in DevTools shows network conditions and sensors tabs
+		b. Allow for modifying:
+			i. Caching
+				1) Disable to redownload content every time
+			ii. Network throttling
+				1) Simulate 2 or 3g networks
+				2) Slower networks
+			iii. User agent
+				1) Any number of browser user agents
+	4. Emulating Sensors
+		a. Most desktops don’t have touch, GPS, or accelerometers
+		b. Emulate snesors using dev tools
+	5. Viewport
+		a. Visible area of page
+		b. Does not include address bar/toolbar
+		c. Viewport meta element
+			i. Properties that affect what the viewport displays
+				1) Width
+					a) Device-width
+				2) Initial-scale
+					a) Initial zoom level
+					b) Default is 1 for 100% zoom
+				3) User-scalable
+					a) Boolean
+					b) No = prevents zooming
+	6. Viewport Units
+		a. Vw and vh 
+			i. Percentage of viewports width or heigh
+				1) 1vw = 1% width
+				2) 1vh = 1% height
+		b. Vmin and vmax
+		c. Using just a % without vw or vh would be a % of the parents width
+			i. Viewport = 400px
+			ii. <div width=300px>
+				1) <div width="50vw"</div> = 50% of viewport = 200px
+				2) <div width=50%</div> = 50% of parent width = 150px
+		d. Overflow: auto;
+			i. Allows text size to be changed to fit in viewport and adds a scroll bar
+		e. Width larger than webpage
+			i. 120vw for example
+				1) Renders a horizontal scroll bar
+	
+		
+		

@@ -1,0 +1,60 @@
+	1. CSS
+		a. Cascading Style Sheets
+			i. Cascading
+				1) Combines system rules and resolves conflict
+			ii. Style Sheets
+				1) Visual
+		b. Visual presentation of a webpage
+	2. CSS Rules
+		a. Consists of a selector and a declaration block between braces {}
+		b. Selector
+			i. Specifies the HTML element
+		c. Declaration block
+			i. Separated by semicolons ;
+				1) Only required to separate blocks
+		d. Styling declaration
+			i. CSS followed by a colon : and property value
+		e. Example 
+			i. Span {
+				1) Color: green;
+				2) Font size: 16px;
+			ii. }
+	3. Applying CSS
+		a. Inline style
+			i. Declarations inside an elements style attribure
+		b. Embedded stylesheet
+			i. Places CSS rules inside HTML documents head using a <style> element
+		c. External stylesheet
+			i. Places CSS in separate file that is imported to HTML using a <link> element
+		d. Good practice to place <style> and <link> inside HTML <head>
+	4. Inheritance and conflict
+		a. Every HTML has a default style 
+		b. CSS overrides defaults
+		c. Inheritance
+			i. Styles from a parent are passed down to the child elements
+		d. Conflict
+			i. When two or more style elements apply to the same element
+			ii. When conflict occurs, the child's style overrides the parent
+			iii. EX
+				1) Parents style declaration is color: blue
+				2) Child is color: green
+			iv. Inline style overrides external or embedded style
+		e. Specificity
+			i. A default rule that handles more complex CSS conflicts
+		f. !important rule
+			i. Can be used in declarations to override other style rules
+		g. Examples:
+			i. <style>
+				1) P {color: orange;}
+				2) Span{color: green;}
+			ii. </style>
+			iii. <p>
+				1) Part of this sentence is orange,
+				2) <span> while the other is green</span>
+			iv. </p>
+						i) The first part will be orange while the span tags portion will be green
+	5. Attribute for link and style sheet
+		a. <link href="https://wp.zybooks.com/css/color-scheme-1.css" rel="stylesheet">
+	
+		
+		

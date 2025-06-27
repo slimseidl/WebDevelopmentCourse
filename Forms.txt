@@ -1,0 +1,73 @@
+	1. <form>
+		a. Allows a web browser to submit information from the user to the server
+		b. Two primary attributes
+			i. Action
+				1) Indicates the URL where the form data should be sent
+				2)  HTTPS
+			ii. Method
+				1) Indicates the HTTP request type the browser will use to communicate with the server
+				2) GET or POST
+				3) Get is default if not specified
+	2. Get
+		a. Browser submits info to a web server by altering the URL of the HTTP request
+			i. Collects all data from form into a query string
+				1) A set of name=value pairs separate by &
+				2) Each name is an attribute of the HTML field
+				3) Value is user entered data
+			ii. Creates a URL with the server page and name=value pairs
+				1) URL made up of the web name, action attribute, question mark and name=pair values
+				2) Query string appended to Url separated by question mark
+				3) Ex. Example.com/apply?first=Rick&last=Deckard
+			iii. Uses the URL to create and send an HTTP GET request
+			iv. Display or update the page using the response
+	3. POST
+		a. Web browser submits info to web server by sending information in the HTTP request body
+			i. Actions - method ="POST"
+				1) Creates HTTP POST request using the URL from the form's action attribute
+				2) Create query string
+				3) Places query string into request body and sends
+				4) Displays/updates the page
+			ii. Query string doesn't appear in URL for POST type
+		b. Binary and Post
+			i. If a form field contains binary data such as images, the normal query format is not sufficient
+				1) Post can be split into multiple parts
+					a) Use Enctype attribute
+						i) Enctype="multipart/form-data
+	4. Form Widgets
+		a. Default value for type attribute is text
+		b. Interactive web page components
+			i. Buttons, menus, data entry fields
+		c. <input>
+			i. Allows a user to enter info on a web page
+		d. <input> attributes
+			i. Type
+				1) Default value is text
+				2) Widget type
+					a) Text
+					b) Submit
+					c) Button
+			ii. Name
+				1) Names the widget
+			iii. ID
+				1) Unique identifier
+			iv. Placeholder
+				1) Typically used to give hints
+			v. Value
+				1) Default value
+		e. Text box widget
+			i. Input with a type = text
+			ii. Allows user to enter text
+		f. Submit button widget
+			i. Input with a type="submit"
+	5. Labels and text areas
+		a. <label>
+			i. Displays descriptive text associated with a widget
+			ii. Uses a "for" attribute
+				1) Should match ID attribute of wdiget
+		b. <textarea>
+			i. Allows a user to enter multiple lines of text
+				1) Optional rows and cols to specify height and width
+				2) <textarea name="summary" rows="4" cols="5">To summarize…</textarea>
+			
+			
+		

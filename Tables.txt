@@ -1,0 +1,30 @@
+	1. Creating a table
+		a. Organizes data into columns and rows
+		b. Uses <table> element
+		c. <tr> creates a table row
+		d. <th> creates a table header
+			i. Usually bold and centered
+			ii. Can use scope with <th> tags to indicate if a header is a row or column
+				1) Ex:
+					a) <th scope="col">Lightest</th>
+					b) <th scope="row">Animal</th>
+		e. <td> creates a table cell containing data
+		f. <caption> creates a table caption 
+			i. Must follow immediately after the opening table tag
+			ii. Centered above table
+	2. Spanning multiple columns and rows
+		a. Values
+		b. Colspan and rowspan attributes
+			i. Apply to cells and headers 
+				1) Td and th
+			ii. Like a merge and center
+	3. Headers, Footers, Body
+		a. Header
+			i. <thead>
+		b. Footer
+			i. <tfoot>
+		c. Body
+			i. <tbody>
+		d. Don't effect the layout of the table but may be used on a web browser to separate scrolling while freezing the header
+			i. Like freeze top row in excel
+		

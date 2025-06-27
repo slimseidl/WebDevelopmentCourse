@@ -1,0 +1,16 @@
+	1. <script>
+		a. Allows page to include executable code
+		b. Default is javascript
+		c. Type attribute specifies if not javascript
+		d. Src attribute provides the URL of the file containing javascropt code
+		e. Script tag must be closed with a closing </script> even when javascript code is in a different file
+		f. Good practice to use external
+			i. Javascript can be editted separately from HTML then
+				1) Can be reused on different pages
+	2. <style>
+		a. Uses CSS to introduce presentational directives
+			i. Placed in an HTML's <head> content
+			ii. Describes presentation of entire document
+	3. Script and style contents are not displayed within a browser
+		a. Only for styling and interactive content
+		

@@ -1,0 +1,27 @@
+	1. Unordered list
+		a. Collection of items 
+		b. Indented
+		c. Shown using bullets
+		d. <ul>
+			i. Creates list
+		e. <li>
+			i. Creates list elements
+	2. Ordered List
+		a. Shown with bullets using letters or numbers like how I take notes
+		b. <ol> to create list
+		c. <li> to create element
+		d. Number/letter scheme is specified with a type attribute
+			i. Type="1" - numbers
+			ii. Type="A" - uppercase letters
+			iii. Type="a"- lowercase
+			iv. Type="I" - uppercase roman numerals
+			v. Type="i" - lowercase roman
+		e. Types are added to the ol tag
+		f. Uses numbers by default
+	3. Nested Lists
+		a. A list within a list element
+		b. UL uses different type of bullet
+		c. OL restarts at 1
+	4. Lists can only contain li elements
+	
+		

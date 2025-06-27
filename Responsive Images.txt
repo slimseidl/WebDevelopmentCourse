@@ -1,0 +1,56 @@
+	1. Responsive Images
+		a. Most high end mobile devices have a DPR > 1
+		b. DPR often designated with an x
+			i. 1 is 1x
+		c. Images on a webpage need to have a DPR either the same or higher than that of the device so it doesn’t look pixelated or blocky
+		d. Image that scales to fit different layouts in a responsive webstie
+		e. Issues
+			i. Scale sizes without looking blocky or pixelated
+			ii. Higher res images should be used for devices with higher DPRs
+			iii. Avoid sending too high res to void taking up too much bandwidth
+	2. SVG images
+		a. Scalabe vector graphics
+			i. Defined with XML
+		b. Vector image
+			i. Defines with lines curves and points
+				1) Scale at any resolution
+		c. .svg file type
+		d. Img tag
+			i. <img src= "fox.svg" alt="Fox" style="width:10vw">
+	3. Srcset attribute
+		a. For JPEG and PNG
+		b. Specifies which image should be displayed for specific DPR values
+		c. Ex:
+			i. <img srcset="dpg.jpg"
+			ii. Srcset="dog-medium.jpg 2x, dog-large.jpg 3x">
+				1) Browser with 2DPR gets medium, 3DPR get large, 1DPR gets dog.jpg
+	4. Sizes attribute
+		a. Browser uses sizes and srcset attributes to determine best image for browser size
+		b. Sizes
+			i. Specifies one or more pairs of media and relative image sizes
+		c. Example
+			i. Browser width = 1000 @ 3DPR and needs a 50% span of browser
+				1) Needs 1500px image (1000 x 3 x .5 = 1500)
+					a) Dog.1300 is best size for browser
+	5. <picture> element
+		a. Implementing art direction
+			i. Swapping out images for different screen sizes
+		b. Uses one or more <source> elements to specify a media condition and image
+			i. If condition is true, image is downloaded
+		c. <img> must also be specified as an image to download if none of the source images are selected
+		d. Polyfill
+			i. Supports functionality missing from a browser
+	
+Image Code Example in HTML
+
+
+<img src="images/luxor_600.jpg" alt="Luxor Temple"
+         sizes="(min-width: 700px) 600px, (min-width: 500px) 400px, 200px"
+         srcset="images/luxor_600.jpg 600w, images/luxor_800.jpg 800w, images/luxor_1200.jpg 1200w">
+
+
+
+<img src="images/egypt_600.jpg" alt="Great Sphyinx and pyramid" class="stretch-image"
+         srcset="images/egypt_1200.jpg 2x, images/egypt_1800.jpg 3x">
+
+

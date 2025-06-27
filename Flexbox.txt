@@ -1,0 +1,62 @@
+	1. Flexbox containers and items
+		a. Flexible Box
+		b. CSS layout mode
+		c. Lays out elements in a container so that elements behave predictably when container is resized or moved
+		d. Flex container
+			i. Display property set to "flex" to create block level flex container
+			ii. Display set to "inline-flex" to create an inline flex container
+			iii. <div style="display: flex">
+		e. Flex items
+			i. Sized according to flexbox properties
+	2. Properties
+		a. Flex-direction
+			i. Row (default)
+				1) Left aligned
+			ii. Row-reverse
+				1) Right alignment
+			iii. Column
+				1) Ordered and vertical stack
+			iv. Column-reverse
+				1) Reverse order and vertical stack
+		b. Gap
+			i. Defines space between items
+			ii. Gap: 10px;
+		c. Justify-content
+			i. Justifies items
+			ii. Flex-start (default)
+				1) Left
+			iii. Flex-end
+				1) Right
+			iv. Center
+			v. Space-between
+			vi. Space-around
+				1) Outside spacing
+			vii. Space-evenely
+		d. Flex-wrap
+			i. Nowrap (default)
+			ii. Wrap
+			iii. Wrap-reverse
+	3. Flex Item Properties
+		a. Width determined by the following properties
+		b. Flex basis
+			i. Initial length
+			ii. Auto (default)
+			iii. Percentage
+			iv. Length unit
+		c. Flex-grow
+			i. How much container space is assigned to the item
+			ii. Defualt is 0
+			iii. Flex-grow: 1;
+				1) FILLS CONTAINER
+		d. Flex-shrink
+			i. Minimum size of item
+			ii. Default is 1
+			iii. 0 means it shouldn’t shrink when container changes
+	4. Flex shorthand
+		a. Flex: 0 1 auto; is the same as:
+			i. Flex-grow: 0
+			ii. Flex-shrink: 1
+			iii. Flex-basis: auto
+		
+			
+				

@@ -1,0 +1,31 @@
+	1. Entities
+		a. Way of writing special characters or symbols in HTML
+		b. Can use names, decimal, or hexadecimal coding
+		c. Named
+			i. Format
+				1) & + Entity Name + ;
+					a) &copy;
+		d. Decimal
+			i. Format
+				1) &# + number + ;
+					a) &#128512; = :) 
+		e. Hexa
+			i. Format
+				1) &#x + number + ;
+	2. Entities for reserved characters
+		a. < and & can be displayed using entitites
+		b. < is normally the beginning of a tag 
+			i. Use &lt; to display
+		c. & - &amp;
+	3. Non breaking characters
+		a. Keeping words together instead of page/line breaking them
+		b. Non breaking hyphen
+			i. &#8209;
+				1) Ex
+					a) Off&#8209;campus displays as off-campus and won't break the line
+		c. Non breaking space
+			i. &nbsp;
+	4. &dagger;
+		a. Displays a cross looking symbol
+		b. For importance
+		

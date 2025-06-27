@@ -1,0 +1,68 @@
+	1. Checkboxes
+		a. Widget for element with type=checkbox
+		b. Allows users to check/select a value
+		c. Appears if checked attribute is set
+			i. <input type="checkbox" checked>
+				1) Creates a checked checkbox
+		d. Type of boolean attribute
+			i. True when present
+			ii. False when absent
+		e. If value attribute is not specified, default is "on"
+		f. Good practice to use <label> with checkboxes so users can click the label to check/uncheck boxes
+	2. Radio Buttons
+		a. Type="radio"
+		b. Allows users to select exactly one value from many values
+		c. Name attribute
+			i. Ex:
+				1) <input type="radio" name="movie" value="ET">
+					a) ET sent to server
+			ii. Same name attribute for every value
+				1) Ex:
+					a) If three different values such as ET, Other Guys, Anchorman
+						i) All name attributes will still = "movie"
+	3. Drop Down Menus
+		a. <select>
+			i. Select one of a predefined list
+			ii. Void element
+		b. <option> 
+			i. Void element
+			ii. Creates a list value
+		c. Ex:
+			i. <select name="sport"
+				1) <option value="football">Football</option>
+				2) <option value="basketball">Basketball</option>
+			ii. </select>
+	4. List box
+		a. Specifies a size by using the size attribute
+		b. <select size="4">
+			i. Creates a list box that shows 4 options at a time
+		c. Multiple attribute
+			i. Allows user to select multiple options
+			ii. Hold down control button on windows (cmd on Mac) to select multiple
+			iii. Use a checkbox instead where possible
+			iv. Ex:
+				<option value="yellow">Yellow</option>
+	5. Button Widgets
+		a. <button> 
+			i. Allows images as well as text to be displayed inside a button
+			ii. Type attribute can be set to different value such as button or submit
+				1) Best practice is to specify a type because different browsers may set different defaults
+		b. <input type="button"
+			i. Only allows text in the button
+	6. Password Fields
+		a. Widget for input elements with type password 
+			i. Allows users to enter password without results being displayed on the screen
+		b. Ex:
+			i. <input type="password" name="secret" size="10" maxlength="10">
+	7. Field Set
+		a. <fieldset>
+			i. Groups related form widgets together
+			ii. Draws a box around the grouped widgets
+			iii. Ex:
+				1) <fieldset>
+					a) Radio button
+					b) Radio button
+					c) Radio button
+				2) </fieldset>
+		b. <legend>
+			i. Defines a caption for fieldset

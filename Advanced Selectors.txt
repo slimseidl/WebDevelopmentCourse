@@ -1,0 +1,56 @@
+	1. Universal Selector
+		a. Uses an asterisk (*)
+		b. Matches all elements of a webpage
+		c. Like SQL Select *
+		d. Like a default
+	2. Multiple Selector
+		a. Uses a comma and separates selectors
+		b. Use when different selectors should be the same style
+		c. Avoid redundancy
+	3. Child selector
+		a. Uses a greater than symbol > between two selectors
+			i. Second element is child of first
+	4. Sibling Selectors
+		a. Elements that share the same parent
+		b. General Sibling
+			i. Uses a tilde ~
+			ii. Between two selector
+			iii. Matches second element if it occurs after first
+		c. Adjacent sibling 
+			i. Uses a + symbol
+			ii. Matches an element that immediately follows another
+	5. Combinators
+		a. Match specific relationships with other selectors
+			i. Siblings
+			ii. Descendants
+			iii. Child
+	6. Attribute Selectors
+		a. Attribute name with option value 
+		b. Surrounded by square brackets
+		c. [   ]
+		d. Matches a specified attribute
+		e. a[target] matches anchor attributes with a target attribute
+		f. a[target="blank"] matches anchor attributes with a target=blank attribute=value reference
+		g. Selector comparators
+			i. = 
+				1) Exact value
+			ii. ~=
+				1) Attribute contains whole word
+			iii. ^=
+				1) Attribute starts with
+	7. Pseudo Element Selector
+		a. Uses two colon characters as in ::
+		b. Designed to match parts of an element
+		c. Examples
+			i. ::after
+				1) Add content after matched element
+			ii. ::before
+				1) Adds before
+				2) Li::before {content:**}
+			iii. ::firstline
+				1) Matches first line of a text block or element
+			iv. ::firstletter
+				1) p::firstletter {font-size:200px;}
+			v. ::selection
+				1) Matches user entered text
+				

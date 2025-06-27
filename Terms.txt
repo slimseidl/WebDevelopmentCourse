@@ -1,0 +1,29 @@
+HTMl - Defines structure and content of a webpage
+CSS - specifies layout and apperance of page
+Javascript - describes dynamic behaviors and actions of a webpage
+Linkrot - a once valid webpage that now displays a 404 / cannot find web page error
+	1. Browser Cache - storing the downloaded page on a web browser so if visiting that page again, don't have to download again
+	2. Entity Tag - version control for a web resource - identifier for the resource
+	3. Elements
+		a. Construct an HTML document
+		b. Single html strucutre repped with html tags
+		c. Most elements have an opening and closing tag
+		d. Headers:
+			i. h1 (largest), h2, h3
+				1) <h2>Puppies are cute</h2>
+		e. Paragraph:
+			i. <p> </p>
+		f. Emphasis - Italic
+			i. Em
+		g. Emphasis - Bold
+			i. Strong
+				1) <strong> </strong>
+		h. Image
+			i. Img
+		i. Link
+			i. a
+			<a href="https://www.wikipedia.org/">Click Here</a>
+	4. Tag
+		a. Name surrounded by < and >
+		b. <p> = paragraph
+		

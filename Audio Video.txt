@@ -1,0 +1,48 @@
+	1. Audio
+		a. <audio>
+			i. Plays an audio file
+		b. <source>
+			i. Use inside audio to list the source of the audio file
+			ii. Multiple sources can be used to specify alternate audio
+		c. Attributes
+			i. Autoplay
+				1) Boolean
+				2) Makes sound play automatically
+			ii. Controls
+				1) Boolean
+				2) Displays audio controls
+					a) Pause, play, etc
+			iii. Loop
+				1) Puts audio on a loop
+			iv. Muted
+				1) Initially mutes audio
+		d. Ex:
+			i. <audio controls autoplay>
+				1) <source src="song.mp3file">
+			ii. </audio>
+			iii. Adds a pause/play button to audio file and starts play automatically
+		e. Mp3 and AAC are supported by most browsers
+	2. Video
+		a. <video>
+			i. Displays a video
+			ii. Also has a <source> element
+		b. Attributes
+			i. Autoplay
+			ii. Controls
+			iii. Loop
+			iv. Muted
+			v. Width
+				1) Specifies pixel width
+		c. Multiple sources can be used
+			i. <source src="file.mp4">
+			ii. <source src="file.ogg">
+	3. Youtube videos
+		a. <iframe>
+			i. Allows a webpage to be embedded in a rectangular area of the current webpage
+			ii. Attributes
+				1) Src
+				2) Width
+				3) Height
+				
+	
+	

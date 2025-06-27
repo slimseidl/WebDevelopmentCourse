@@ -1,0 +1,96 @@
+Finding, ID, and Fixing Problems using DevTools
+
+	1. HTML vs DOM
+		a. HTML is not the same as DOM
+			i. HTML is source
+			ii. DOM is active
+		b. Sources Tab
+			i. View source files used to download the page
+		c. Console
+			i. Type / execute javascript
+		d. Javascript modifies DOM but not HTML source
+			i. Editing in DevTools
+	2. Elements Panel
+		a. Control + shift + C
+			i. Opens directly to elements
+		b. Select elements and see them in the web page above
+			i. See where the elements are at and highlights them in blue in the web page
+		c. Styles pane changes to reflect styles based on selected elements
+		d. With devtools closed you can right click on something in the web page and click inspect to open up the direct elements panel to the source of the element
+			i. Can also use element selctor on top left with devtools open to select an element and find it in the DOM
+		e. CTRL F
+			i. Opens a search for searching for elements
+			ii. Can use # to search for an element ID
+				1) #main
+				2) #header
+			iii. Can make changes in element panel once found
+				1) Double click on element to modify
+					a) Press enter
+		f. Can make changes by dragging and dropping in the DOM
+		g. Only changes the DOM, not the source HTML files
+	3. Modifying / Troubleshooting CSS Styles
+		a. Inspect
+			i. Styles pane
+				1) Cascading is applied from bottom up
+			ii. Inspect the CSS styles
+			iii. If style is crossed out, it's being overridden somewhere
+		b. Computed pane
+			i. Final list of styles
+		c. File name is also a link
+			i. Opens file in source files
+			ii. Goes to part containing the styles you were just viewing
+			iii. Sources
+				1) Feature for formatting easier to read
+					a) Format option bottom left {}
+		d. Uncheck box by styles to remove the formatting
+		e. Filters on top
+			i. Check different element states and force them to be active
+			ii. Checkboxes
+				1) :active for example
+				2) :hover
+		f. Adding new styles
+			i. Element.style box
+			ii. Experiment with new styles before changing source code
+			iii. Can add classes too
+		g. Adjust values on box model
+			i. View at bottom of style pane
+			ii. Can double click on existing value and modify it
+				1) Enter
+			iii. Double click dashes to modify
+				1) Box model elements with no current values
+		h. Specificity
+			i. One rule more specific than another
+		i. Computed Tab
+			i. Specific settings and their values
+			ii. Just the end result for an element and it's style
+			iii. Can edit right on computed tab
+		j. Rendered Fonts
+			i. Appear in dev tools style pane by clicking on element directly
+		k. CSS Coverage
+			i. See used and unused lines of CSS
+			ii. % of CSS used
+			iii. Settings
+				1) More tools
+					a) Coverage
+				2) Record
+					a) Capture coverage
+				
+	4. Saving Changes to files in workspaces
+		a. Sources panel
+			i. All files downloaded show in page tab
+			ii. Server name
+				1) Files and folders
+			iii. File systems pane
+				1) Add folder to workspace
+					a) Configure mapping to file system with a root folder
+		b. Green dot
+			i. Files are synced with files on local server
+		c. Used to change source code
+		d. To make changes permanent
+			i. Open source HTML file in sources / page pane
+				1) Edit there
+				2) CTRL + S to save
+			ii. Will save to local file system
+		
+		
+		

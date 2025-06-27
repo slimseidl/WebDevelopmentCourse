@@ -1,0 +1,7 @@
+	1. Comments
+		a. A portion of the doc that is not displayed by the browser
+		b. <!-- and -->
+		c. Leaving notes for themselves or others within the code
+		d. Cant put a comment within another comment
+		e. Put outside the <p> if in a paragraph
+		f. Comments ignore <p> tags if the tag is inside the comment

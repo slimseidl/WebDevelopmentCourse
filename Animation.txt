@@ -1,0 +1,90 @@
+	1. CSS animations
+		a. Advantages over Javascript
+			i. No javascript code
+			ii. Less load on computer
+				1) Smoother animations
+			iii. Stop animations from running in browser tabs that arent visible
+		b. @keyframes rule
+			i. Keyframe lists
+				1) Has a name
+				2) Contains properties/values that become animated
+			ii. Selectors
+				1) From
+					a) Beginning of animation
+				2) To
+					a) End 
+			iii. Percentages can be used to specify keyframes
+				1) 0% = from
+				2) 100% = to
+				3) 50%=halfway point
+		c. Properties
+			i. Animation-name
+				1) Names keyframe list
+			ii. Animation-duration
+				1) Length in seconds or millisecons(ms)
+				2) Must have a postive value
+					a) Cannot be 0
+			iii. Animation delay
+				1) Delays it from starting immediately
+		d. Example
+			i. @keyframes changeColors { from {background-color:blue;} to{background-color: green;}}
+				1) Animation-name: changeColors
+				2) Animation-duration: 1s;
+				3) Animation-delay: 2s;
+			ii. Reverts to original style after animation is completed
+	2. Timing, Iteration Count & Direction
+		a. Animation-timing-function
+			i. Speed between keyframes
+			ii. Ease 
+				1) Slow start, fast, slow end (default)
+			iii. Linear
+				1) Same speed all the way
+			iv. Ease-in
+				1) Slow start
+			v. Ease-out
+			vi. Ease-in-out
+				1) Slow start, slow end
+			vii. Cubic-bezier(n1, n2, etc)
+				1) Specify numbers that control speed
+		b. Animation-iteration-count
+			i. # of times animation runs
+			ii. Can be infinite as a value
+		c. Animation direction
+			i. Normal (ddefault)
+			ii. Reverse
+			iii. Alternate
+			iv. Alternate-reverse
+		d. Animation
+			i. Shorthand that has:
+				1) Name
+				2) Duration
+				3) Timing
+				4) Delay
+				5) Iteration
+				6) Direction
+			ii. Animation: move 3s linear 2s infinte normal
+	3. Transitions
+		a. Animates transition from one state to another
+			i. Animate an element getting wider when width is increased
+		b. Commonly used with ::hover to trigger mouse animation
+		c. Execute when property values are changed unlike animations that are scheduled
+		d. Less control over animations
+		e. Defined by CSS properties and duration
+		f. Transition-timing-function
+			i. Speed of transition
+			ii. Ease
+			iii. Linear
+			iv. Etc.
+		g. Transition-delay
+			i. Delays start
+	4. Transform
+		a. 2D or 3D transofrmation to an element
+		b. Alters position, shape or orientation
+		c. Translate(x,y)
+			i. Moves element on x and y axis
+		d. Scale(x,y)
+			i. Increases width/height by x and y multiplier
+		e. Rotate(angle)
+			i. Rotates clockwise by angle
+		
+		

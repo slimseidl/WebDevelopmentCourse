@@ -1,0 +1,38 @@
+	1. Images
+		a. <img>
+		b. Void element that displays an image on a webpage
+			i. Does not require a closing tag
+		c. Two requirements
+			i. Src attribute
+				1) URL of the image to display
+			ii. Alt attribute
+				1) Provides a text description to use in place of an image as an alternative
+			iii. Tag order DOES NOT matter
+		d. Width and height attribute
+			i. Optional
+			ii. How many pixels
+			iii. <img src="dog.jpg" alt="dog pic" height="200" width="100">
+		e. Aspect ratio
+			i. Ration of width to height
+			ii. Width:height
+			iii. Typically 2 to 1
+			iv. If only height or only width is specified, a 2:1 ration will be defined
+	2. Supported image formats
+		a. JPEG
+			i. Common for digital photographs
+			ii. Lossy compression
+				1) Some of the original picture info is lost when compressed
+				2) Hard to tell with the naked eye
+		b. PNG
+			i. Line art
+			ii. Screenshots
+			iii. Images that require transparency
+		c. GIF
+			i. Animated images
+	3. Favicon
+		a. An image displayed in a web browser tab
+			i. Like a logo next to the tab
+		b. <link> element
+		
+		
+			

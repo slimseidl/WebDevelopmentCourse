@@ -1,0 +1,40 @@
+	1. Anchor elements
+		a. <a>
+		b. Hyperlinks
+		c. Href attirbutes
+			i. Specify hyperlinks URL
+			ii. Href="www....."
+	2. FTP
+		a. Downloads files
+	3. Absolute and Relative URLs
+		a. An absolute URL is a complete URL
+			i. Uses full name like http://www.google.com/
+		b. Relative
+			i. Specifies a relative path with no scheme/host 
+			ii. Example.html
+			iii. Relative can use a ../ to specify the file above the one listed
+				1) ../test.html
+					a) Directory above the link
+	4. Section Links
+		a. URLs can point to a section or  fragment  using a hash tag # and a fragment ID at the end of the URL
+			i. Ex
+				1) Wiki.org/computerscience#History
+					a) References the history section of computer science page
+			ii. Creates a fragment identifier
+		b. Fragment ID Rules
+			i. Any character except whitespace
+			ii. Cannot start with a number
+			iii. Case sensitive
+			iv. Must be unique to the document
+	5. Image links
+		a. Graphical hyperlink
+			i. Uses images inside a hyperlink
+			ii. <a href="www."><img src="dog.jp" alt="ARC"></a>
+		b. Target attribute
+			i. How the link is displayed when clicked
+			ii. _self
+				1) Opens link in same tab or window
+				2) default
+			iii. _blank
+				1) Opens link in a new tab
+		

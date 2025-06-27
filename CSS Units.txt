@@ -1,0 +1,32 @@
+	1. CSS Units
+		a. Used to define page element length
+			i. Font size
+			ii. Height 
+			iii. Width 
+			iv. Border
+			v. Other properties
+		b. Ex.
+			i. .box {
+				1) Width: 1cm;
+				2) Height: 30%;
+			ii. }
+	2. Absolute units
+		a. Cm, mm, q(quarter millimeters), in, picas(pc), point (pt), pixels (px)
+		b. H2 {line-height: 3px;}
+	3. Relative units
+		a. Em
+			i. Font size
+		b. Ex
+			i. Height of font
+		c. Ch
+			i. Width of 0
+		d. Rem
+			i. Font size relative to root element
+		e. Vw
+			i. Viewport
+		f. Vh
+		g. Vmix
+		h. Vmax
+		i. %
+			i. Of parent 
+	

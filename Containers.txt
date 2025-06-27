@@ -1,0 +1,45 @@
+	1. Container
+		a. Any element that has opening and closing tags
+		b. Parent containers
+			i. Container in which other containers reside
+				1) Like an indented BOM
+			ii. Header - <>
+				1) Introductory
+			iii. Footers
+			iv. <address>
+				1) Contact info
+			v. <main>
+				1) Primary content
+			vi. Section
+				1) Chapters, etc.
+			vii. <article>
+			viii. <nav>
+				1) Navigation to website or part of website
+			ix. <aside>
+				1) Content not directly related to main content
+			x. <div>
+				1) Block containers
+			xi. <span>
+				1) Inline containers
+	2. Block Elements
+		a. Fills the width of the element's parent container
+		b. Can include other blocks, inline elements or text
+		c. <h1>, <table>, <p> are examples
+		d. Some blocks cannot contain other blocks
+			i. <p> cant house another <p>
+		e. Each block element starts on a new line normally
+			i. <ol> 
+			ii. </ol>
+		f. <div> has no semantic meaning
+	3. Inline Elements
+		a. Fills the minimum space possible in parent container
+		b. Do not contain other content
+		c. Width determined by parent
+			i. Think of all in one line
+		d. Can only contain other inline elements or text
+		e. <a>, <em>, and <span>
+		f. <span> has no semantic meaning
+	4. Only use span and div when no other element is appropriate
+		a. Used for presentation and interaction purposes
+	
+		

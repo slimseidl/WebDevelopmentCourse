@@ -1,0 +1,106 @@
+	1. One of the most popular frameworks for creating responsive websites
+		a. Easy to create fluid layouts
+		b. Numerous CSS calsses that aid in styling text, tables, images, etc.
+		c. Grid system for designing layouts that work across all devices
+		d. Reusable components like dropdowns, alerts, navigation, etc.
+	2. Content Delivery Network (CDN)
+		a. Download bootstrap
+			i. Getbootstrap.com
+		b. Hosts popular web files around the world
+		c. Auto routes requests to the closest server
+	3. Reboot
+		a. CSS selector rules
+		b. Helps change appearance of an element
+		c. Uses sans-serif fonts
+	4. Ex with class= ""
+		a. <h1 class="display-2">Text text text </h1>
+			i. Adds a class to the element using bootsrap
+		b. Text-danger
+			i. Red colored text
+		c. Text-primary
+			i. Blue
+		d. Text-success
+			i. Green 
+		e. Bg-warning
+			i. Yellow background fill
+		f. Shadow
+		g. Class="border"
+		h. w-50
+			i. Width
+		i. Ms-3
+			i. Margin
+		j. Text-center
+		k. Fw-bold
+			i. Boldt text
+		l. Table
+			i. Table-striped
+		m. Separate with a space between the quotes
+			i. class="border w-50 ms-3 shadow text-center"
+	5. Grid System
+		a. 12 columns or less
+		b. Resize as browser changes
+		c. Applied to a block element using two classees:
+			i. Container
+				1) Fixed width container with max-width
+					a) Changes at various break points
+			ii. Container-fluid
+				1) Responsive cotainer
+					a) 100% width
+				2) <div class="container-fluid">
+		d. Use the row class
+			i. <div class="row">
+				1) Amount of rows
+				2) Each row uses col, sol-sm, col-md classes to form columns
+					a) <div class="col-md">
+					b) When browsers are resized pass the breakpoints, the columns are placed on separate rows
+				3) <div class="container-fluid"> - creates 100% width responsive container
+					a) <div class="row">
+						i) <div class="col">col</div>
+						ii) <div class="col-sm,">col</div>
+					b) </div>
+					c) <div class="row">
+						i) <div class="col-md">col</div>
+					d) </div>
+				4) Creates a grid with two rows
+			ii. Maximum width is 12
+				1) Col-md-8
+					a) 8/12 of the page
+		e. Required meta element:
+			i. <meta name="vieport: content="width=deice-width, initial-scale=1">
+		f. Columns forced onto next row when total exceeds 12
+			i. Ex 
+				1) If a row col-sm-10 and col-sm-4
+					a) 4 will be on next row bc 4 + 10 = 14 
+		
+	6. Images
+		a. Adding a class to the img element
+			i. Class="img-fluid"
+				1) Image resizes with page
+			ii. Rounded
+			iii. Rounded-circle
+	7. Components
+		a. Developing interactivity 
+			i. Button for custom button
+			ii. Carousel
+				1) Cycle thru images or text in a slideshow
+			iii. Dropdown
+			iv. Progress
+				1) Display progress bar
+		b. Modal
+			i. Configurable modal dialog box
+			ii. data-bs-toggle="modal" data-bs-target="#emailModal">
+		c. Alert
+			i. Shows a short message
+		d. ESC
+			i. Escapes modal diaalogue box without selecting an option
+	8. Icons
+		a. Employing icons instead of words
+		b. <I class="bi bi-calendar"></i>
+			i. Displays a calendar icon
+	9. Typography
+		a. Overall appearance and flow of text on a websites
+		b. Uniformity
+		
+		
+			
+		

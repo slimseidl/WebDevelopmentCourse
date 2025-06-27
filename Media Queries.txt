@@ -1,0 +1,84 @@
+	1. Design for different screen sizes
+		a. Strategies
+			i. Graceful degradation
+				1) Desktop site first, then modify to fit smaller screens
+			ii. Progressive enhancement
+				1) Mobile first design
+				2) Smallest device first then larger
+				3) Best used for websites that show equal text and images for all platforms
+	2. Media Queries
+		a. Combo of media type and optionally one or more media features expressions that evaluate to true or fales
+			i. Media type
+				1) Device category that query applies to
+					a) All
+						i) All devices
+						ii) default
+					b) Print
+						i) Documents viewed on screen in print preview mode
+					c) Screen
+						i) Intended for screens
+			ii. Media feature
+				1) Characteristic of brwoser deivce or environment
+				2) Some can be fixed with min/max 
+					a) Min-width: 200px
+						i) Width must be > or = 200px
+					b) Aspect ratio
+						i) Width to height ratio
+					c) Height of viewport
+					d) Width
+					e) Orientation
+						i) Portrait / landscaoe
+					f) Resolution
+						i) Pixel density
+		b. Often used in link elements and in stylesheets
+			i. The link element defines a media query with media attributes
+				1) <link rel="stylesheet" media="print and (min-width: 400px)">
+					a) Is the webpage being printed and is the viewport > 400px?????
+						i) If just viewing on a device, print = false and no style sheet is downloaded
+				2) When media query matches, style sheet is downloaded and applied
+			ii. @media at-rule
+				1) Instructs CSS how to behave
+		c. A media query essentially poses a question, and if the HTMl matches the question, it becomes that CSS style
+	3. Breakpoints
+		a. Determine when content should be displayed, resized, or hidden in a page
+		b. Screen width that activates a media query
+			i. @media screen (max-width: 800px);
+				1) 800 is breakpoint
+		c. Good practice to target content rather than device type with breakpoints
+		d. Don't work unless the meta element sets the viewport width to device width
+			i. <meta name="viewport" content="width=device-width, intial-scale=1">
+			
+		
+				
+			
+Media Query Code Example:
+
+
+
+
+@media (min-width: 600px) {
+   .benefits-container {
+      flex-direction: row;
+   }
+}
+@media (min-width: 700px) {
+   nav li {
+      display: inline;
+   }
+   header > h1 {
+      font-size: 3rem;
+   }
+}
+@media (min-width: 800px) {
+   .vacation-container img {
+      width: 50vw;
+   }
+   .vacation-container {
+      display: flex;
+      flex-direction: row;
+   }
+   .vacation-container > div {
+      margin: 20px;
+   }
+}
+

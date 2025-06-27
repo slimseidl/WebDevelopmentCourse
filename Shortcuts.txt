@@ -1,0 +1,4 @@
+CTRL + O - opens file explorer
+CTRL + U in browser - opens html code for web page
+CTRL + SHIFT + I in browser - opens dev tools
+
