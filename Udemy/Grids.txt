@@ -1,0 +1,73 @@
+	1. Display: Grid
+	2. Grid-template rows
+		a. Fractional ratios
+			i. 1fr 2fr;
+				1) 1st column is 1 fraction
+				2) Second column is twice the width of the first
+	3. Grid template columns
+		a. 1fr 1fr;
+			i. Equal rows
+	4. Gap
+	5. By default, grid tries to take up the full width of the screen, so gaps will occur
+	6. Condense rows and columns with short hand
+		a. Grid-template: 100px 200px / 400px 800px
+	7. Auto sizing
+		a. Grid-template-columns: auto
+			i. Fits to the width of screen
+		b. Rows
+			i. Fits height of content, not whole page
+	8. REM
+		a. Is relative size to root of HTML
+			i. Body/html formatting font size
+	9. Fractional Sizing
+		a. 1fr 2fr
+			i. Column / row fractional sizing
+				1) Takes up a specified fraction of the page
+	10. Min/Max
+		a. Minimum and maximum width of columns
+		b. Minmax(400px, 800px)
+	11. Repeat
+		a. Use to repeat the amount of columns and rows, and their sizes
+			i. Grid-template-rows: repeat(8, 100px)
+				1) Like the chess board
+	12. Only lays out the # of items in your HTML
+		a. So if you add another div, it will lay that out too
+	13. Grid-Auto-Rows
+		a. Use for growth
+			i. Adding divs in the future
+		b. Grid-auto-rows: 300px;
+			i. If another div is added, it will make it 300px
+	14. Grid Divs by default only take up content space for height, but stretch the width of the vieport
+		a. Setting height to 100vh takes up full heigh of viewport
+			i. Dynamic / responsive
+	15. Flexbox with Grid
+		a. Grid display for container
+		b. Flex display for items
+			i. Allows to determine item placement within the items/containers
+	16. Grid-column
+		a. Grid-column: span 2;
+			i. Item referenced spans 2 columns rather than default by grid display
+		b. Shorthand that combines grid-column-start and grid-column-end
+			i. Can use negative numbers to indicate distance from last column
+		c. Grid-Row
+			i. Same but for rows
+	17. Use the order property like flexbox to arrange items
+	18. Grid-Area
+		a. Shorthand for grid-column/row start/end
+			i. Order
+				1) Grid-row-start
+				2) Grid-colum-start
+				3) Grid-row-end
+				4) Grid-column-end
+					a) All separated by forward slashes
+					b)  2 / 1 / 3 / 3
+	19. Grid allows for overlaying items
+		a. Hex codes for color
+			i. #FFFFFF80
+				1) First six nums/letters account for the color
+				2) Next two is called alpha which means transparency
+				3) 80 is basically 50% transparency
+					a) Makes no sense but is what it is
+				4) 
+	
+	

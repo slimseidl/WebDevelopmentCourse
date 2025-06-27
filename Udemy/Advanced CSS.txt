@@ -1,0 +1,89 @@
+	1. Spans
+		a. <span></span>
+	2. Display: inline
+		a. Will display separate blocks on the same line
+		b. <h2>Harry<h2>
+		c. <h2>Potter</h2>
+			i. H2 { display: inline}
+				1) Puts them on a single line
+		d. Block, inline and inline-block
+		e. Block
+			i. Take up full width, next element will go below it
+			ii. Can set height and width 
+		f. Inline 
+			i. Cant set height and width
+			ii. Will only be as wide as required to fill the content
+		g. Inline-block
+			i. Can set height and width while displaying inline rather than on top of each other
+		h. None
+			i. Basically makes it disappear
+			ii. Good for checking off items or having a button to hide something
+		i. Helps in designing responsive websites
+	3. Float
+		a. Wrapping text around elements
+		b. Float: left and float: right
+			i. Used to float images around text
+		c. Clear: left, right, both
+			i. Used to stop floating for things like footers / other things u don’t want to wrap
+		d. Have to play with this to get used to it
+			i. 8.1 had to use float on individual tags and add an img tag
+		e. There are better techniques than float such as flexbox, grid and bootstrap
+	4. Responsive Web Design
+		a. Media Queries
+			i. Used with an @media instead of CSS selector
+			ii. Basically a set of rules that evaluates to true or false to change page size
+				1) @media (max-width: 600px) { xxxxx }
+					a) 600 px is the breakpoint
+		b. Grid
+			i. Uses the display property
+				1) Display: grid
+			ii. Set a number of columns and rows
+				1) As well as their width / height / gap between
+				2) Grid-template-columns : 1fr 1fr;  
+					a) Fr = fraction of the page
+				3) Grid-template-rows: 100px 200px 200px;
+					a) Row sizing
+				4) Gap: 30px;
+					a) 30px spacing between rows and columns
+				5) Grid-column: span 2;
+					a) Rows span number of columns
+						i) Spans 2 columns
+		c. Flexbox
+			i. Display: flex;
+				1) Creates a flex container
+			ii. Flex: 1;
+				1) Equal width for all flexes
+				2) Flex: 2
+					a) Twice the width of normal
+				3) Flex: 0.5
+					a) Half the width, etc..
+			iii. Everything is a ratio or percentage
+				1) Of the page
+				2) Responsive design
+		d. BootStrap
+			i. Predefined code that is pulled in
+			ii. CSS selectors already set up for responsive design
+			iii. 12 division system
+				1) Page divided into 12 sections
+				2) Col-6
+					a) Takes up 6 columns of the page
+					b) Also is defined at 50% for responsive design
+				3) Col-4
+					a) Takes up 4 to make 10
+				4) Col-3
+					a) Goes on next line cause exceeds 12
+	5. Media Queries
+		a. @media (max-width: 600px) { h1 { font-size: 15px;}}
+			i. Changes font size of the h1 to 15px when on a screen that’s 600px or less in width
+		b. Can use min or max width for progressive enhancement or graceful degeneration
+			i. Or a combo of both for screens between sizes
+		c. @media screen
+			i. Default is all screens
+			ii. Screen(orinetation: landscape)
+				1) Example
+		d. @media print 
+			i. Targets when website is being printed
+		
+	
+			
+			

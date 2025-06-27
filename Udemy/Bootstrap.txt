@@ -1,0 +1,66 @@
+	1. Pre defined CSS styles and classes
+	2. Good for designing a website quickly when it needs to look slick and uniform
+	3. Not good if you want full customization over your websites
+	4. Class bloat
+		a. Adding a bunch of classes from bootstrap to your HTML file
+	5. Uses a CDN link to add to file
+		a. Add a <link href="www...."> element to your head section
+		b. Add bootstrap <script> element for buttons / scripting
+			i. Javascript 
+	6. Getbootstrap.com
+		a. Main bootstrap website
+	7. 12 Column layout design
+		a. Three parts
+			i. <div> with class container
+				1) Div inside container with class row
+					a) Items within the row that make up columns (class = col)
+		b. Tries to give every column equal spacing as part of the 12 column design
+		c. Responsive container
+			i. Different sizes on different screens
+				1) Xsmall, small, medium, large, xl, xxl
+				2) .container-sm, .container-xxl 
+			ii. Refers to width of viewport for sizing
+		d. .container-fluid
+			i. Reach from edge to edge on all devices / screen sizes
+		e. Can use "col" to specify how many columns to occupy out of 12
+			i. Ex. Col-2, col-6
+			ii. <div class="col-4"Hello</div>
+		f. Has breakpoints based on different common screen sizes
+			i. Extra Small < 576px 
+			ii. Large >= 992px
+			iii. Small typically mobile devices
+			iv. Large typically laptops
+			v. XL desktops
+			vi. XXL TVs
+		g. Cols
+			i. Col-XXL-10
+				1) On XXL screens (see breakpoints for bootstrap), = column width
+			ii. Col-XL-5
+			iii. Col-lg-5
+			iv. Col-md-6
+			v. Col-sm-6
+			vi. Col-12
+				1) Whatever's left
+	8. BootStrap Buttons
+		a. Primary
+			i. Blue
+			ii. Home page
+		b. Secondary - Gray
+		c. Success
+			i. Green
+			ii. Like an OK button
+		d. Danger
+			i. Red
+		e. Warning
+			i. Yellow
+		f. Code:
+			i. <button type="button" class="btn btn-primary">Primary</button>
+				1) Replace primary with danger, warning, success, etc.. Based on button needed
+	9. BootStrap Cards
+		a. Go to getbootstrap.com
+			i. Docs
+				1) Components
+				2) Copy/paste card code
+			ii. Basically just inspect the cards they have using DevTools and copy the Div element, then paste into your code
+			
+		

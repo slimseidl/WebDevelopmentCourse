@@ -1,0 +1,98 @@
+	1. Better than float for creating structured layouts
+		a. Floats are great for magazine style layouts when u want to float an image for text to wrap around
+	2. Flexbox is good for overall page layout
+	3. Wrap divs inside a container 
+		a. Target that container in CSS
+		b. Set display to flex
+			i. .container{
+			   display: flex;
+			   gap: 10px; } - gap between columns or objects
+		c. Div
+			i. By default is a block
+		d. Span
+			i. By default is inline
+		e. With flexbox
+			i. Divs and spans width based on content size
+		f. Gap
+			i. Allows for spacing between content
+	4. Behaves like a block display
+		a. 100% full width
+		b. Also has an inline-flex property
+			i. Occupies width of the content rather than full width of container
+	5. Flex Direction
+		a. Default is row
+		b. Main Axis
+		c. Cross axis
+			i. Perpendicular to main axis
+		d. Flex-direction: column
+			i. Items inside flex container stack on top of each other like blocks
+				1) Main axis is now vertical, cross axis is horizontal
+		e. Flex Basis
+			i. Kind of like the height of each item in the container
+			ii. Important in relation to main and cross axis
+				1) Flex-basis: 100px 
+					a) If flex direction is row, changes the width
+					b) If direction is column, changes the height
+			iii. Flexing along the main axis
+			iv. FLEX BASIS HAS TO BE PERFORMED ON CHILD, NOT ON CONTAINER
+		f. To select all child using a combinator
+			i. .container > *
+				1) Selects all children of the container rather than having to type out a multiple selector
+					a) Great for dynamic and responsiveness
+	6. Flexible Layout
+		a. Flex item
+			i. Child of flex container
+		b. Order property
+			i. Child property
+			ii. Default order of everything is 0
+				1) Goes in order by order in HTML content
+			iii. Order: 1, would go to the end bc its greater than 0
+		c. Flex-wrap
+			i. Good for when you run out of space horizontally
+			ii. Deafult is set to nowrap
+				1) So if you run out of space, it's just hidden/pushed off the page
+			iii. Flex-wrap: wrap;
+				1) Items move down to next line when no space is left
+			iv. Set at container level
+			v. Flex-wrap: wrap-reverse;
+				1) Bottom right start
+		d. Justify-Content
+			i. Set on container level
+			ii. Sets distribution of content along main axis
+			iii. Justify-content: flex-start
+				1) Bunched up on left
+			iv. Flex-end
+				1) Bunched on end
+			v. Center
+				1) Center the content easily in a flex container
+			vi. Space-between
+				1) Outside edges touch the container walls, even space between contents
+			vii. Space-Around
+			viii. Space-evenly
+				1) Even spacing for all gaps
+		e. Align-Items:
+			i. Distributes content along cross axis
+			ii. Set on container level
+			iii. Works well when the container height is set
+			iv. Flex-start
+				1) Top alignment
+			v. Flex-end
+				1) Bottom alignment
+			vi. Center
+			vii. Baseline
+			viii. Stretch
+				1) Stretches full to full contianer dimensions along cross axis
+		f. Align-self:
+			i. Set on flex item
+			ii. Use when you want an individual flex item rule for alignment purposes
+				1) Don’t want a specific item to follow the rules of the container alignment
+			iii. Can use with all align-content properties
+				1) Ex
+					a) Align-self: flex-end;
+		g. Align-Content:
+	7. Flex Wrap and Flex direction are so commonly used together that a shorthand was created
+		a. Flex-flow: row wrap, column wrap
+	8. Flex-Sizing
+		
+			
+			

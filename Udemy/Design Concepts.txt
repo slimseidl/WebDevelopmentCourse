@@ -1,0 +1,46 @@
+	1. Color theory
+		a. Red
+			i. Energy
+			ii. Love 
+			iii. Intensity
+		b. Yellow
+			i. Joy 
+			ii. Intellect
+			iii. Attention
+		c. Green
+			i. Fresh
+			ii. Safety
+			iii. Growth
+		d. Blue
+			i. Stability
+			ii. Serenity
+			iii. Trust
+			iv. Good for interviews
+		e. Purple
+			i. Royal
+			ii. Wealth
+			iii. Feminity
+	2. Typography
+		a. Importance of fonts and conveying messages
+		b. 40-60 character per line of text is good
+	3. UI
+		a. Think about audience
+		b. User experiences
+		c. Whitespace makes the design cleaner
+			i. Don’t make it tacky
+		d. Alignment points should be the same
+			i. Cleaner design
+	4. UX Design
+		a. Keep things simple
+			i. Less clutter
+		b. Consistency
+			i. e.g. Keep nav bars/searches in similar locations
+		c. Reading Patterns
+			i. Humans typically read in an F-pattern
+				1) Use this as a design layout when applicable
+			ii. Left to right, down, left to right
+			iii. Z-patterns are common too
+		d. All Platform design
+			i. Mobile, desktop, tablet, etc
+			ii. Work across all platforms
+		

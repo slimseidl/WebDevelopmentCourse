@@ -1,0 +1,35 @@
+	1. Positioning
+		a. Static
+			i. Basic HTML layout
+			ii. One element right on top of another
+		b. Relative 
+			i. Most common
+			ii. Relative to default position
+		c. Absolute
+			i. Relative to the nearest positioned ancestor
+			ii. Z index
+				1) Depth of the page is the z axis
+				2) Determines which divs / elements go on top of another
+				3) Higher z index goes in front
+		d. Fixed
+			i. Relative to top left corner of web browser
+			ii. Even if you scroll up and down, it will still be in the top left corner
+			iii. Like freezing it
+	2. Positioning attributes
+		a. Position:
+			i. Absolute
+			ii. Static
+			iii. Relative
+			iv. Fixed
+		b. Placement:
+			i. Top
+			ii. Bottom
+			iii. Left
+			iv. Right
+			v. Creates placement without using margins
+		c. z-index
+			i. Numbers:
+				1) Negative or positive
+			ii. Indicates bring to front or send to back
+		
+			

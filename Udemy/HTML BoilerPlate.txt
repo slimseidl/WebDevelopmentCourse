@@ -1,0 +1,12 @@
+	<!DOCTYPE html>
+	<html lang="en">
+		<head> (things that aren't displayed in the browser)
+			<meta charset="UTF-8">
+			<title>My Website</title> (displayed in tab bar)
+		</head>
+		
+		<body> (website content)
+			<h1>Hello</h1>
+		</body>
+		</head>
+	</html>

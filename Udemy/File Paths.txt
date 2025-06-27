@@ -1,0 +1,6 @@
+	1. Two Dots (../) go up a level
+	2. One Dot (./) stays at the same level of file path that current HTML is open in
+
+cdir = current directory change
+cd .. = go up one level 
+mkdir = make a directory within directory

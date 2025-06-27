@@ -1,0 +1,128 @@
+	1. Inline Style 
+		a. <html style="Color: blue">
+	2. Internal Style
+		a. For one singular HTML page
+		b. <html>
+			i. <head>
+				1) <style>
+					a) Html {background-color: blue;}
+				2) </style>
+			ii. </head>
+		c. </html>
+	3. External Style Sheet
+		a. Links to styles in a separate page
+		<html>
+			<head>
+				<link
+					Rel=""
+					Href="./styles.css"
+				>
+			</head>
+		</html>
+	4. Selectors
+		a. Class
+			i. Groups elements
+		b. ID
+			i. Unique
+			ii. Only one element per ID per file
+		c. Attribute 
+			i. Enclosed in brackets 
+			ii. [value="4"]
+			iii. [target="_blank"]
+			iv. Preceded with an element
+				1) Li[value="4"]
+					a) Changes all elements with the specific attribute to a style specified
+			v. p[draggable="true"]
+	5. More CSS
+		a. Em
+			i. % of parent font size
+			ii. 1em = 100% of parent
+		b. Pt
+			i. Static 
+		c. Px
+			i. Static 
+		d. REM
+			i. % of root size
+			ii. 1REM = 100% of root
+		e. Em and rem are relative sizes / dynamic
+			i. If parent size changes, em changes
+			ii. Same with rem and root
+				1) Root is typically the html element
+	6. Google fonts
+		a. Browse fonts
+		b. Embed links in the <head> of your sheet but outside of the <style> section
+		c. Copy CSS code to sheet
+	7. Box Model
+		a. Content
+			i. Height
+			ii. Width
+		b. Padding
+			i. Between border and content
+			ii. Accepts up to four values 
+				1) Goes clockwise
+		c. Border
+		d. Margin
+			i. Outside of box / elements
+			ii. 4 values
+	8. Divs
+		a. Act as a container to group sections of HTML together
+		b. Can apply CSS to the divs
+		c. Horizontally center a div by giving it a width of 50%
+			i. Margin-left of 25%
+		
+	9. Chrome Pesticide
+		a. Extension for dev tools that helps debug divs
+		b. Shows divs around box models
+		c. Helps to debug box models
+		d. Outside of DevTools
+			i. Hold down CTRL and hover over an item
+				1) Tells you which node youre on
+	10. Specificity
+		a. Lower level applies
+		b. External
+		c. Embedded
+		d. Inline
+			i. This applies if specified
+		e. Levels
+			i. Element
+				1) Least specific
+			ii. Class
+			iii. Attribute 
+				1) li[attribute=""]
+			iv. ID
+				1) Most specific
+				2) Typically targets a single element/value
+	11. Type
+		a. External
+		b. Internal
+		c. Inline
+			i. Most specific
+	12. Importance
+		a. "important" keyword
+			i. Color: green !important;
+				1) Will follow this rule no matter what
+					a) Like a trump card
+	13. Advanced selectors
+		a. Descendants
+			i. H1 p
+				1) Any p inside an h1
+		b. Multiple selector
+			i. H1, h2
+				1) Both selectors
+		c. Child
+			i. Div > p
+				1) A p that’s a direct child to a div
+				2) Only goes one layer deep
+		d. Chaining
+			i. Selectorselector
+			ii. Very specific
+			iii. Good for specifying an element that may have the same calss as a different element but you want to specify the single element
+			iv. H1.box
+				1) Says to look for an h1 that also has an ID of box 
+			v. Always try to start with the elemtn
+				1) H1.box
+		e. Combining Combinators
+			i. H1 li.box
+				1) Selects all H1's with all li' descendants with the box class
+			
+		
